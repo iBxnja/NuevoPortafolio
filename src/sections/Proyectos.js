@@ -117,6 +117,7 @@ export function Proyectos() {
                                 <i class="fa-solid fa-check text-4xl text-teal-400"></i>
                                 <span class="text-teal-400">AUTENTICACION</span>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
