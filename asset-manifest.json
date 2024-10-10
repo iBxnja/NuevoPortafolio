@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/NuevoPortafolio/static/css/main.6bf7cdbe.css",
-    "main.js": "/NuevoPortafolio/static/js/main.79f333f9.js",
+    "main.js": "/NuevoPortafolio/static/js/main.4db2642f.js",
     "static/js/453.89e02bfe.chunk.js": "/NuevoPortafolio/static/js/453.89e02bfe.chunk.js",
-    "static/media/cv.jpg": "/NuevoPortafolio/static/media/cv.dc08f4b7125ace0b6906.jpg",
+    "static/media/BenjaminVallory.jpg": "/NuevoPortafolio/static/media/BenjaminVallory.3ed433f7a6e17e958729.jpg",
     "static/media/hamburguesas.png": "/NuevoPortafolio/static/media/hamburguesas.32d3c128566e8cee9768.png",
     "static/media/image9.jpg": "/NuevoPortafolio/static/media/image9.63bec26f050a7a8c0ffc.jpg",
     "static/media/220675.jpg": "/NuevoPortafolio/static/media/220675.8b90af8c79a5504df103.jpg",
@@ -36,11 +36,11 @@
     "static/media/javascript.png": "/NuevoPortafolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/NuevoPortafolio/index.html",
     "main.6bf7cdbe.css.map": "/NuevoPortafolio/static/css/main.6bf7cdbe.css.map",
-    "main.79f333f9.js.map": "/NuevoPortafolio/static/js/main.79f333f9.js.map",
+    "main.4db2642f.js.map": "/NuevoPortafolio/static/js/main.4db2642f.js.map",
     "453.89e02bfe.chunk.js.map": "/NuevoPortafolio/static/js/453.89e02bfe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf7cdbe.css",
-    "static/js/main.79f333f9.js"
+    "static/js/main.4db2642f.js"
   ]
 }
