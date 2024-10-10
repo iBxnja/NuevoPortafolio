@@ -19,7 +19,7 @@ export function Experiencia() {
                             Puesto como desarrollador web full stack. Me encargue de realizar
                             tareas de mantenimiento de sitios web, migraciones, actualizaciones pedidas por el
                             cliente, entre tantas. Utilicé tecnologias como: Html, Css, Bootstrap,
-                            Tailwind, Laravel, Php, Angular, Python, Supabase, Bitbucket, Github y React Native.
+                            Tailwind, Wordpres, WpEngine, Laravel, Php, Angular, Python, Supabase, Bitbucket, Github, astronomer, airflow y React Native.
                         </p>
                     </div>
                     <div class="w-4/12 h-full grid place-items-center">
