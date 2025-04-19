@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../index.css';
-import BenjaminVallory from '../assets/Benjamin-Vallory.png';
+import BenjaminVallory from '../assets/BenjaminValloryCv.png';
 
 export function Inicio() {
     return (
