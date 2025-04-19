@@ -10,16 +10,44 @@ import imagen7 from '../assets/image9.jpg';
 export function Experiencia() {
     return (
         <>
+            <section class="w-full mb-10 h-full flex-col bg-black flex items-center justify-center text-white">
+                <div class="w-10/12 h-full flex items-center justify-around cel:justify-center cel:flex-col">
+                    <div class="w-4/12 h-full grid place-items-center">
+                        <img src={imagen7} alt="imagen1" class="cel:hidden w-full h-full object-cover" />
+                    </div>
+                    <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
+                        <h2 class="text-5xl font-bold text-teal-400">Programador Full Stack y Mobile</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1 text-start cel:text-center sm:text-center">Pont Solutions (Estados Unidos) - Dic. 2024 - Jun. 2025</h4>
+                        <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
+                            • Experiencia en el desarrollo de aplicaciones móviles tipo ride-sharing (pasajero y conductor), utilizando tecnologías como Ionic, Angular, SCSS, TypeScript, WebSocket, Capacitor y Google Maps SDK.<br />
+                            • Encargado de la implementación de mapas, geolocalización y flujos completos de usuario.<br />
+                            • Desarrollo de interfaces de administración con Next.js y Tailwind CSS, manteniendo una UI moderna y funcional.<br />
+                            • Backend construido con Python, Postman, Django, Django REST Framework (viewsets), y servicios cacheados con Redis.<br />
+                            • Contenedorización y despliegue usando Docker.<br />
+                            • Manejo de base de datos PostgreSQL con pgAdmin.<br />
+                            • Participación en pruebas en dispositivos Android, generación de APKs y testing funcional de las aplicaciones junto con Termius.<br /><br />
+                            Tecnologías utilizadas: Ionic, Angular, SCSS, TypeScript, WebSocket, Capacitor, Google Maps SDK, Next.js, Tailwind CSS, Python, Django, DRF, Redis, Docker, PostgreSQL, PgAdmin, Postman, Termius.
+                        </p>
+
+                    </div>
+                </div>
+            </section>
             <section id="experiencia" class="w-full mb-10 h-full flex-col bg-black flex items-center justify-center text-white">
                 <div class="w-10/12 h-full flex items-center justify-around cel:justify-center cel:flex-col">
                     <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">Bits Kingdom</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Estados Unidos - Jun. 2024 - Oct. 2024</h4>
+                        <h2 class="text-5xl font-bold text-teal-400">Programador web full stack</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1">Bits Kingdom (Estados Unidos) - Jun. 2024 - Oct. 2024</h4>
                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Puesto como desarrollador web full stack. Me encargue de realizar
-                            tareas de mantenimiento de sitios web, migraciones, actualizaciones pedidas por el
-                            cliente, entre tantas. Utilicé tecnologias como: Html, Css, Bootstrap,
-                            Tailwind, Wordpres, WpEngine, Laravel, Php, Angular, Python, Supabase, Bitbucket, Github, astronomer, airflow y React Native.
+                            • Mantenimiento de sitios web, incluyendo actualizaciones solicitadas por los clientes y
+                            migraciones de bases de datos.<br />
+                            • Optimización de código mediante la eliminación de clases no utilizadas, repetidas o innecesarias,
+                            mejorando la eficiencia y el rendimiento de los estilos.<br />
+                            • Mejora de consultas para optimizar el rendimiento de bases de datos y reducir tiempos de carga.<br />
+                            • Depuración y mantenimiento de código para garantizar la funcionalidad de los proyectos.<br />
+                            Implementación de mejoras y nuevas características en sitios web y aplicaciones.<br /><br />
+                            Tecnologías utilizadas: HTML, CSS, Bootstrap, Tailwind, WordPress, Laravel,
+                            PHP, Angular, Python, Supabase, Bitbucket, GitHub, Astronomer, Airflow,
+                            WP Engine, Docker y React Native.
                         </p>
                     </div>
                     <div class="w-4/12 h-full grid place-items-center">
@@ -33,12 +61,17 @@ export function Experiencia() {
                         <img src={imagen2} alt="imagen1" class="cel:hidden w-full h-full object-cover" />
                     </div>
                     <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">Lumia</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Argentina - May. 2023 - Abr. 2024</h4>
-                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Experiencia laboral en forma de equipo el cual ocupé el puesto de programador web
-                            full stack pero no se llego a concretar el trabajo con el cliente. Utilicé amplias tecnologias como:
-                            React, Django, Python, Vue, Tailwind, Git, Github y Javascript.
+                        <h2 class="text-5xl font-bold text-teal-400">Programador web full stack</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1 text-start cel:text-center sm:text-center">Clinica odontologica (freelancer - Argentina) - Ene. 2024 - Mar. 2024</h4>
+                        <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
+                            • Desarrollo de un sitio web con funcionalidades de autenticación y gestión completa de clientes,
+                            imágenes, notas, citas y odontogramas, proporcionando un control integral a los profesionales.<br />
+                            • Integración de la biblioteca FullCalendar para optimizar la gestión de  citas y mejorar la
+                            experiencia del usuario.de los estilos.<br />
+                            • Implementación de bases de datos relacionales y optimización de consultas SQL para una
+                            gestión eficiente de la información.<br /><br />
+                            Tecnologías utilizadas: HTML, CSS, Tailwind, JavaScript, Ajax, jQuery,
+                            PHP, Laravel, MySQL (DBeaver), GitHub.
                         </p>
                     </div>
                 </div>
@@ -46,14 +79,16 @@ export function Experiencia() {
             <section class="w-full mb-10 h-full flex-col bg-black flex items-center justify-center text-white">
                 <div class="w-10/12 h-full flex items-center justify-around cel:justify-center cel:flex-col">
                     <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">Clinica Odontológica</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Freelancer - Ene. 2024 - Mar. 2024</h4>
-                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Realice un sitio web destinado a una dentista. Esta plataforma permitía una autenticacion y la
-                            gestion completa de clientes, imagenes, notas, citas y odontogramas, brindando a los profesionales
-                            un control total sobre su práctica odontológica. Para llevar a cabo este proyecto, utilicé una variedad
-                            de tecnologías. Html, Css, Tailwind, Javascript, Ajax, Jquery, Php, Laravel, Mysql (Dbeaver) y Github.
-                            Tambien integré la biblioteca FullCalendar para mejorar aun mas la funcionalidad y la experiencia del usuario.
+                        <h2 class="text-5xl font-bold text-teal-400">Programador web full stack</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1">Lumia (Freelancer - Argentina) - May. 2023 - Abr. 2024</h4>
+                        <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
+                            • Colaboración en equipo como programador web full stack para el desarrollo de proyectos
+                            orientados a clientes.<br />
+                            • Participación en el diseño y desarrollo de soluciones utilizando tecnologías modernas, aunque
+                            el trabajo no se concretó con el cliente final.<br />
+                            • Implementación y prueba de funcionalidades en entornos frontend y backend, asegurando la
+                            integración y el rendimiento del sistema.<br /><br />
+                            Tecnologías utilizadas: React, Django, Python, Vue, Tailwind, JavaScript, Git, GitHub.
                         </p>
                     </div>
                     <div class="w-4/12 h-full grid place-items-center">
@@ -67,49 +102,41 @@ export function Experiencia() {
                         <img src={imagen5} alt="imagen1" class="cel:hidden w-full h-full object-cover" />
                     </div>
                     <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">Pasantia</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Argentina - Oct. 2023 - Nov. 2024</h4>
-                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Pasantía trabajando en una aplicacion en la cual me encargue mayormente en el desarrollo del
-                            Front-End y parte del Back-end. Las tecnologias con las que trabajamos fueron las siguientes, Html,
-                            Css, Tailwind, Php, Javascript y linux.
+                        <h2 class="text-5xl font-bold text-teal-400">Programador web full stack</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1 text-start cel:text-center sm:text-center">La Push - Marca de Ropa (Freelancer - Argentina) - (Nov. 2023 - Dic. 2023)</h4>
+                        <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
+                            • Renovación integral de un sitio web existente para modernizar su diseño y mejorar la experiencia
+                            del usuario, alineándose con las tendencias actuales del mercado.<br />
+                            • Implementación de templates personalizados y optimización del frontend utilizando
+                            Tailwind, JavaScript y jQuery.<br />
+                            • Desarrollo y actualización del backend con Laravel y MySQL, integrando la API BgIbelick para
+                            funcionalidades adicionales.<br />
+                            • Enfoque en destacar la identidad de la marca y mejorar la interacción con los clientes mediante
+                            un diseño atractivo y funcional.<br /><br />
+                            Tecnologías utilizadas: HTML, CSS, Tailwind, JavaScript, jQuery, PHP, Laravel, MySQL, API BgIbelick.
                         </p>
                     </div>
+
                 </div>
             </section>
             <section class="w-full mb-10 h-full flex-col bg-black flex items-center justify-center text-white">
                 <div class="w-10/12 h-full flex items-center justify-around cel:justify-center cel:flex-col">
+
                     <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">Agenda</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Freelancer - Dic. 2023 - Dic. 2023</h4>
-                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Desarrollo de una agenda de cumpleaños, una herramienta que permite a los usuarios gestionar
-                            notas, fechas importantes y generar un informe general que resume todas las acciones realizadas.
-                            Utilizando un conjunto diverso de tecnologias, como Html, Css, Bootstrap, Javascript, FullCalendar,
-                            Mysql y Laravel, logré crear una aplicación elegante y funcional que supero las expectativas del cliente.
+                        <h2 class="text-5xl font-bold text-teal-400">Programador web full stack</h2>
+                        <h4 class="font-medium text-2xl tracking-widest mt-1 text-start cel:text-center sm:text-center">Pasantía (Freelancer- Argentina) - (Oct. 2023 - Nov. 2023)</h4>
+                        <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
+                            • Desarrollo del frontend de una aplicación, creando interfaces interactivas y funcionales con
+                            tecnologías modernas como Tailwind y JavaScript.<br />
+                            • Colaboración en tareas del backend, contribuyendo al desarrollo de funcionalidades y
+                            optimización del sistema.<br />
+                            • Uso de Linux para la configuración y administración del entorno de desarrollo y despliegue
+                            de la aplicación.<br /><br />
+                            Tecnologías utilizadas: HTML, CSS, Tailwind, PHP, JavaScript, Linux.
                         </p>
                     </div>
-                    <div class="w-4/12 h-full grid place-items-center">
-                        <img src={imagen7} alt="imagen1" class="cel:hidden w-full h-full object-cover" />
-                    </div>
-                </div>
-            </section>
-            <section class="w-full mb-10 h-full flex-col bg-black flex items-center justify-center text-white">
-                <div class="w-10/12 h-full flex items-center justify-around cel:justify-center cel:flex-col">
                     <div class="w-4/12 h-full grid place-items-center">
                         <img src={imagen4} alt="imagen1" class="cel:hidden w-full h-full object-cover" />
-                    </div>
-                    <div class="cel:w-full cel:items-center w-6/12 h-full flex items-start justify-center flex-col">
-                        <h2 class="text-5xl font-bold text-teal-400">La Push</h2>
-                        <h4 class="font-medium text-2xl tracking-widest mt-1">Freelancer - Nov. 2023 - Dic. 2023</h4>
-                         <p class="font-thin tracking-widest text-xl mt-5 text-start cel:w-full w-11/12 cel:text-center">
-                            Proyecto apra marca de ropa que ya contaba con un dominio y un host establecido. En esta ocasión 
-                            me encargué de la renovacion de la pagina web, se requería una actualización para mantener al dia
-                            con las tendencias y las expectativas del mercado. Utilicé una variedad de tecnologias y templates.
-                            Incluyendo Html, Css, Tailwind, Javascript, Jquery, Php, Laravel, Mysql y la api BgIbelick. Estas
-                            herramientas me permitieron crear una nueva experiencia que destacaba la identidad de la marca
-                            y mejoraba la interaccion con los clientes.
-                        </p>
                     </div>
                 </div>
             </section>

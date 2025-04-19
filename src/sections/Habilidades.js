@@ -24,6 +24,10 @@ import illustrator from '../assets/illustrator.png'
 import postgresql from '../assets/postgresql.png'
 import axios from '../assets/axios.png'
 import vue from '../assets/Vue.png'
+import airflow from '../assets/airflow.png'
+import docker from '../assets/docker.png'
+import Ionic from '../assets/ionic.png'
+import termius from '../assets/termius.png'
 
 
 
@@ -103,6 +107,18 @@ export function Habilidades() {
                     </div>
                     <div class="w-80 h-80 flex flex-col items-center justify-center bg-neutral-900">
                         <img src={illustrator} alt="html" class="w-40 h-40" />
+                    </div>
+                    <div class="w-80 h-80 flex flex-col items-center justify-center bg-neutral-900">
+                        <img src={docker} alt="html" class="w-72 h-40" />
+                    </div>
+                    <div class="w-80 h-80 flex flex-col items-center justify-center bg-neutral-900">
+                        <img src={airflow} alt="html" class="w-40 h-40" />
+                    </div>
+                    <div class="w-80 h-80 flex flex-col items-center justify-center bg-neutral-900">
+                        <img src={Ionic} alt="html" class="w-40 h-40" />
+                    </div>
+                    <div class="w-80 h-80 flex flex-col items-center justify-center bg-neutral-900">
+                        <img src={termius} alt="html" class="w-40 h-40" />
                     </div>
 
                 </div>
