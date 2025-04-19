@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/NuevoPortafolio/static/css/main.6bf7cdbe.css",
-    "main.js": "/NuevoPortafolio/static/js/main.910b1d60.js",
+    "main.js": "/NuevoPortafolio/static/js/main.bf60005a.js",
     "static/js/453.89e02bfe.chunk.js": "/NuevoPortafolio/static/js/453.89e02bfe.chunk.js",
-    "static/media/Benjamin-Vallory.png": "/NuevoPortafolio/static/media/Benjamin-Vallory.39eabdebf353fa6be70f.png",
+    "static/media/BenjaminValloryCv.png": "/NuevoPortafolio/static/media/BenjaminValloryCv.d4c6e440646d27c0d9c2.png",
     "static/media/hamburguesas.png": "/NuevoPortafolio/static/media/hamburguesas.32d3c128566e8cee9768.png",
+    "static/media/termius.png": "/NuevoPortafolio/static/media/termius.30a02f3a1fda4bd61843.png",
     "static/media/image9.jpg": "/NuevoPortafolio/static/media/image9.63bec26f050a7a8c0ffc.jpg",
     "static/media/220675.jpg": "/NuevoPortafolio/static/media/220675.8b90af8c79a5504df103.jpg",
     "static/media/450434.jpg": "/NuevoPortafolio/static/media/450434.acaf7ad6381670edbd0a.jpg",
@@ -21,6 +22,7 @@
     "static/media/angular.png": "/NuevoPortafolio/static/media/angular.01af70871edfe2e291c4.png",
     "static/media/dolar.jpg": "/NuevoPortafolio/static/media/dolar.de6d911d8b4fea48597a.jpg",
     "static/media/area.jpg": "/NuevoPortafolio/static/media/area.f41d7cdcda2d8cf3dee1.jpg",
+    "static/media/ionic.png": "/NuevoPortafolio/static/media/ionic.07f1fd180b6917af7604.png",
     "static/media/react.png": "/NuevoPortafolio/static/media/react.214af24d7f042fd76977.png",
     "static/media/css.png": "/NuevoPortafolio/static/media/css.9407ad358cdb22b8b1f0.png",
     "static/media/django.png": "/NuevoPortafolio/static/media/django.b2cbe0e24abd890759f3.png",
@@ -38,11 +40,11 @@
     "static/media/javascript.png": "/NuevoPortafolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/NuevoPortafolio/index.html",
     "main.6bf7cdbe.css.map": "/NuevoPortafolio/static/css/main.6bf7cdbe.css.map",
-    "main.910b1d60.js.map": "/NuevoPortafolio/static/js/main.910b1d60.js.map",
+    "main.bf60005a.js.map": "/NuevoPortafolio/static/js/main.bf60005a.js.map",
     "453.89e02bfe.chunk.js.map": "/NuevoPortafolio/static/js/453.89e02bfe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf7cdbe.css",
-    "static/js/main.910b1d60.js"
+    "static/js/main.bf60005a.js"
   ]
 }
